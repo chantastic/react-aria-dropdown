@@ -3,17 +3,35 @@
   "version": "0.2.0",
   "description": "WIP: Dropdown with automatically applied aria attributes",
   "main": "dist/react-aria-dropdown.js",
+  "umd:main": "dist/react-aria-dropdown.umd.js",
+  "module": "dist/react-aria-dropdown.m.js",
+  "source": "src/react-aria-dropdown.js",
   "scripts": {
+    "build": "microbundle --jsx React.createElement",
+    "dev": "microbundle watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chantastic/react-aria-dropdown.git"
   },
+  "files": [
+    "dist"
+  ],
   "author": "Michael Chan <mijoch@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/chantastic/react-aria-dropdown/issues"
   },
-  "homepage": "https://github.com/chantastic/react-aria-dropdown#readme"
+  "homepage": "https://github.com/chantastic/react-aria-dropdown#readme",
+  "devDependencies": {
+    "microbundle": "^0.6.0",
+    "react": "^16.4.2"
+  },
+  "peerDependencies": {
+    "react": "^16.4.2"
+  },
+  "dependencies": {
+    "lodash.uniqueid": "^4.0.1"
+  }
 }
