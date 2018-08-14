@@ -1,0 +1,19 @@
+{
+  "name": "react-aria-dropdown",
+  "version": "0.2.0",
+  "description": "WIP: Dropdown with automatically applied aria attributes",
+  "main": "dist/react-aria-dropdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chantastic/react-aria-dropdown.git"
+  },
+  "author": "Michael Chan <mijoch@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chantastic/react-aria-dropdown/issues"
+  },
+  "homepage": "https://github.com/chantastic/react-aria-dropdown#readme"
+}
