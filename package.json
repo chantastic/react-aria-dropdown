@@ -1,6 +1,6 @@
 {
   "name": "react-aria-dropdown",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "WIP: Dropdown with automatically applied aria attributes",
   "main": "dist/react-aria-dropdown.js",
   "umd:main": "dist/react-aria-dropdown.umd.js",

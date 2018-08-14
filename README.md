@@ -1,7 +1,5 @@
 # react-aria-dropdown
 
-WIP
-
 ## Installation
 
 ### Node
